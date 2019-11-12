@@ -1,0 +1,201 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./circle.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.--display__start-up {}
+
+.start-up__left {}
+
+.start-up {
+    display: flex;
+    width: 50rem;
+    /* border: 1px black solid; */
+    position: relative;
+    border-radius: 15px;
+    top: 25px;
+    left: 10px;
+    color: white;
+    /* background-color: #fffff555; */
+}
+
+.start-up__container {
+    text-align: center;
+}
+
+.start-up__container__hackathon {
+    font-family: Franklin Gothic Medium;
+}
+
+.start-up__container__48hours {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.start-up__display {
+    display: flex;
+    width: 50rem;
+    height: 25rem;
+    /* border: 1px solid black; */
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.start-up__display__container {
+    display: flex;
+    /* border: 1px solid white; */
+}
+
+.start-up__display__container__images {
+    /* border: 2px solid white; */
+    /* background-color: #fffff555; */
+}
+
+.start-up__display__images {
+    height: 400px;
+    width: 600px;
+    border: 2px solid whitesmoke;
+    background-image: url("./image1.jpg");
+    background-size: cover;
+    transition: 10s;
+}
+
+.start-up__display__images {
+    animation-duration: 8s;
+    transition: transform 6s;
+    animation-iteration-count: infinite;
+}
+
+.start-up__display__images:hover {
+    animation-name: image-hover;
+}
+
+@keyframes image-hover {
+    20% {
+        background-image: url("./image2.jpg");
+    }
+    40% {
+        background-image: url("./image3.jpeg");
+    }
+    60% {
+        background-image: url("./image4.jpg");
+    }
+    80% {
+        background-image: url("./image5.jpeg");
+    }
+}
+
+.start-up__right {
+    /* display: flex; */
+    display: block;
+    margin: 0;
+    font-family: Franklin Gothic Medium;
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    top: 19px;
+    color: white;
+    right: 0;
+    border-radius: 15px;
+    /* border: 1px solid ; */
+    /* background-color: #fffff555; */
+}
+
+.start-up__formulier {}
+
+.start-up__formulier__container {
+    display: flex;
+    /* background-color: #fffff555; */
+}
+
+.start-up__formulier__register__msg {
+    border-radius: 1rem;
+    background-image: url("./tech1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.start-up__formulier__register__checked {
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    /* align-content: center; */
+}
+
+.start-up__formulier__register__list {
+    font-size: 15px;
+    border-radius: 1rem;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-image: url("./tech.png");
+    border: none;
+}
+
+.start-up__formulier__container__submit {
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    border-radius: 1rem;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.start-up__formulier__container__register {}
+
+.start-up__planning {
+    /* border: 1px solid; */
+    height: 600px;
+    width: 800px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    /* background-color: #fffff555; */
+}
+
+.start-up__planning__content {
+    /* border: 2px solid; */
+    width: 700px;
+    font-family: Franklin Gothic Medium;
+    position: absolute;
+    top: 40rem;
+    left: 6rem;
+    color: white;
+    /* background-color: #fffff555; */
+}
+
+.start-up__planning__title {}
+
+.start-up__planning__discription {}
+
+@media only screen and (max-width:1000px) {
+    .start-up__right {
+        position: relative;
+    }
+    .start-up__planning__content {
+        position: relative;
+        left: 0;
+        top: 100px;
+    }
+    .start-up__formulier__container__submit {
+        /* position: relative; */
+        top: 900px;
+        margin-left: 0;
+    }
+}
