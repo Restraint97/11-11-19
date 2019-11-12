@@ -123,7 +123,6 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
-    font-size: 1.2rem;
 }
 
 .start-up__formulier__register__checked {
@@ -131,6 +130,20 @@ body {
     height: 25px;
     border-radius: 15px;
     /* align-content: center; */
+}
+
+.start-up__formulier__register__link {
+    /* border: 1px solid white; */
+    color: yellow;
+    border-radius: 15px;
+    /* background-color: #fffff555; */
+}
+
+.start-up__formulier__register__btn {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
 }
 
 .start-up__formulier__register__list {
@@ -146,7 +159,7 @@ body {
 .start-up__formulier__container__submit {
     display: flex;
     position: absolute;
-    bottom: 0%;
+    bottom: -20%;
     left: 35%;
     border-radius: 1rem;
     justify-content: center;
@@ -165,7 +178,6 @@ body {
     height: 600px;
     width: 800px;
     color: white;
-    font-family: 'Franklin Gothic Medium';
     /* background-color: #fffff555; */
 }
 
