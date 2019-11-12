@@ -11,6 +11,16 @@ body {
     background-size: cover;
 }
 
+@font-face {
+    font-family: PytoneOne;
+    src: url("./PaytoneOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./Roboto-Medium.ttf");
+}
+
 .--display__start-up {}
 
 .start-up__left {}
@@ -32,12 +42,12 @@ body {
 }
 
 .start-up__container__hackathon {
-    font-family: Franklin Gothic Medium;
+    font-family: 'PytoneOne';
 }
 
 .start-up__container__48hours {
     font-size: 18px;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Roboto';
 }
 
 .start-up__display {
@@ -98,7 +108,7 @@ body {
     /* display: flex; */
     display: block;
     margin: 0;
-    font-family: Franklin Gothic Medium;
+    font-family: 'PytoneOne';
     height: 100%;
     position: absolute;
     width: 50%;
@@ -184,7 +194,7 @@ body {
 .start-up__planning__content {
     /* border: 2px solid; */
     width: 700px;
-    font-family: Franklin Gothic Medium;
+    font-family: 'Roboto';
     position: absolute;
     top: 40rem;
     left: 6rem;
